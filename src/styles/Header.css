@@ -1,0 +1,45 @@
+.header {
+  background: #282c34;
+  padding: 1rem; 
+  color: white;
+  display: flex; 
+  justify-content: center; 
+  /* Merkezi hizalama */
+}
+
+.nav-container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%; 
+  max-width: 1200px; 
+  /* Maksimum genişlik */
+}
+
+.logo {
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  text-decoration: none; 
+  color: white; 
+  margin-right: auto; 
+  /* Sola yasla */
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  /* Geçiş efekti */
+}
+
+.nav-links a:hover {
+  background-color: #f7c600; /* Sarı hover rengi */
+  color: black; /* Hover metin rengi */
+}
